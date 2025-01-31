@@ -231,6 +231,18 @@
   .containerRosa {
     width: 100%;
   }
+
+  @media (max-width: 576px) {
+    .containerAzul2 {
+      display: flex;
+      flex-wrap: wrap;
+      height: fit-content;
+    }
+
+    .navegacion {
+      width: 100%;
+    }
+  }
 }
 /* //////////////////////////////////////// */
 /* //////////////////////////////////////// */
